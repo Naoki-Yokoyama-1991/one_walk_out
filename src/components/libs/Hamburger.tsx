@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React, { FC, useState, ReactNode, useRef } from 'react';
 import ImageObject from '../../data/Images';
@@ -54,11 +53,10 @@ function MobileNav({
                         }, 100)
                       }
                     >
-                      <Image
+                      <img
                         src={ImageObject.whiteLogo[0].src}
                         alt={ImageObject.whiteLogo[0].alt}
-                        layout='fill'
-                        objectFit='cover'
+                        className='object-cover'
                       />
                       <span className='ml-12 text-2xl font-semibold uppercase text-white'>
                         ONEWALK

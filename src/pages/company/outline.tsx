@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import type { NextPage, InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
+
 import React, { useRef } from 'react';
 import Detail from '../../components/company/Outline';
 import useOffsetTop from '../../components/libs/useScroll';
@@ -42,13 +42,10 @@ const Outline: NextPage<Props> = ({ outlines }: Props) => {
             <Detail data={outlines} />
           </div>
           <div className='relative mt-32 h-outlineImage w-full sm:mt-12 sm:h-52 '>
-            <Image
+            <img
               src={OutlineTop.src}
               alt={OutlineTop.alt}
-              priority={true}
-              className='w-full rounded-tl-200  sm:rounded-20 '
-              layout='fill'
-              objectFit='cover'
+              className='w-full rounded-tl-200  object-cover sm:rounded-20'
             />
           </div>
         </section>

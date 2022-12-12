@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React, { FC, useRef } from 'react';
 import Slider, { CustomArrowProps } from 'react-slick';
 import Images from '../home/Images';
@@ -84,13 +83,10 @@ const SliderItem: FC = () => {
             </span>
           </div>
           <div className='sm:w-ful relative h-serviceImage sm:h-48' ref={iconRef}>
-            <Image
+            <img
               src={carouselItem.src}
               alt={carouselItem.alt}
-              className={`opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} sm:rounded-20`}
-              priority={true}
-              layout='fill'
-              objectFit='cover'
+              className={`object-cover opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} sm:rounded-20`}
             />
           </div>
         </div>

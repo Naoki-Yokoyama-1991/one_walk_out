@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React, { ReactNode, FC, useRef } from 'react';
 import useOffsetTop from '../libs/useScroll';
@@ -49,13 +48,10 @@ const Contents: FC<Date> = (props) => {
   return (
     <>
       <div className='relative mt-28 h-coItem w-full  sm:mt-12 sm:h-52 '>
-        <Image
+        <img
           src={view.src}
           alt={view.alt}
-          priority={true}
-          className='w-full rounded-tl-180 sm:rounded-20'
-          layout='fill'
-          objectFit='cover'
+          className='w-full rounded-tl-180 object-cover sm:rounded-20'
         />
         <span
           ref={iconRef}

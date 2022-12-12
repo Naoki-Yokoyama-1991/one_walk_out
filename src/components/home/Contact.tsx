@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React, { FC, useRef, useMemo } from 'react';
 import ButtonLink from '../libs/ButtonLink';
 import useOffsetTop from '../libs/useScroll';
@@ -36,13 +35,10 @@ const Contact: FC = () => {
           className=' relative ml-auto h-serviceImage w-CareersImage sm:mt-2 sm:ml-0 sm:h-48  sm:w-full'
           ref={iconRef}
         >
-          <Image
+          <img
             src={ImageObject.CareerseImgs[0].src}
             alt={ImageObject.CareerseImgs[0].alt}
-            className={`opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} sm:rounded-20`}
-            priority={true}
-            layout='fill'
-            objectFit='cover'
+            className={`object-cover opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} sm:rounded-20`}
           />
         </div>
         <div className='relative bottom-44 grid grid-cols-Contact items-end sm:bottom-0 sm:block'>

@@ -11,11 +11,11 @@
   }
 
   .active {
-    @apply animate-wiggle;
+    @apply h-full w-full animate-wiggle object-cover;
   }
 
   .noactive {
-    @apply scale-1.08;
+    @apply h-full w-full scale-1.08 object-cover;
   }
 
   .scrolldown {

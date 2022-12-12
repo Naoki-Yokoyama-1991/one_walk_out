@@ -1,7 +1,6 @@
 import { NextPage, InferGetStaticPropsType } from 'next';
 import ErrorPage from 'next/error';
 import Head from 'next/head';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 import Button from '../../components/libs/ButtonLeft';
 import markdownToHtml from '../api/markdownToHtml';
@@ -64,13 +63,7 @@ const Post: NextPage<Props> = ({ post }) => {
           <h1 className='text-3xl font-bold sm:text-xl '>{post.title}</h1>
           <div className='border-gray_pal mt-20 border-t-1  border-solid py-20 sm:mt-14 sm:mb-12 sm:border-none sm:py-0'>
             <div className='relative  h-visionImage   sm:h-48 '>
-              <Image
-                src={`/${post.image}`}
-                layout='fill'
-                objectFit='cover'
-                priority={true}
-                className='sm:rounded-20'
-              />
+              <img src={`/${post.image}`} className='object-cover sm:rounded-20' />
             </div>
           </div>
 

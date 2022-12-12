@@ -5,7 +5,7 @@ declare module '*.gif';
 export {};
 
 declare module 'types' {
-  type StaticImageData = {
+  type string = {
     src: string;
     height: number;
     width: number;
@@ -13,20 +13,20 @@ declare module 'types' {
   };
 
   export interface ImageDetail {
-    src: StaticImageData;
+    src: string;
     alt: string;
     className: string;
   }
 
   export interface Executives {
-    src: StaticImageData;
+    src: string;
     alt: string;
     position: string;
     name: string;
   }
 
   export interface ServiceDetail {
-    src: StaticImageData;
+    src: string;
     alt: string;
     title: string;
     text: string;
@@ -34,7 +34,7 @@ declare module 'types' {
   }
 
   export interface ImageSns {
-    src: StaticImageData;
+    src: string;
     alt: string;
     path: string;
     className: string;

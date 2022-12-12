@@ -2,7 +2,6 @@ import * as fs from 'fs';
 import * as path from 'path';
 import type { NextPage, InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import React from 'react';
 import Detail from '../../components/company/Message';
 import { MessageTop } from '../../data/Images';
@@ -32,13 +31,10 @@ const Message: NextPage<Props> = ({ messages }: Props) => {
           </h1>
         </div>
         <div className='relative mt-28 h-serviceImage sm:mt-12 sm:h-48 sm:w-full'>
-          <Image
+          <img
             src={MessageTop.src}
             alt={MessageTop.alt}
-            priority={true}
-            className='w-full rounded-tl-200 sm:rounded-20'
-            layout='fill'
-            objectFit='cover'
+            className='w-full rounded-tl-200 object-contain sm:rounded-20'
           />
         </div>
         <section className='mx-auto  w-full pt-32 sm:pt-10'>

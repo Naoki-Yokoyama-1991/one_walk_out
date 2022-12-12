@@ -11,7 +11,7 @@ import { ImageDetail, ImageSns } from 'types';
 // Home Top Page
 const NavImages: ImageDetail[] = [
   {
-    src: Logo,
+    src: Logo.src,
     alt: 'onewalk logo',
     className: '',
   },
@@ -19,7 +19,7 @@ const NavImages: ImageDetail[] = [
 
 const whiteLogo: ImageDetail[] = [
   {
-    src: WhiteLogo,
+    src: WhiteLogo.src,
     alt: 'onewalk logo',
     className: '',
   },
@@ -27,19 +27,19 @@ const whiteLogo: ImageDetail[] = [
 
 const snsImages: ImageSns[] = [
   {
-    src: Note,
+    src: Note.src,
     alt: 'note',
     path: '/note',
     className: '',
   },
   {
-    src: Twitter,
+    src: Twitter.src,
     alt: 'twitter',
     path: '/twitter',
     className: '',
   },
   {
-    src: Facebook,
+    src: Facebook.src,
     alt: 'facebook',
     path: '/facebook',
     className: '',
@@ -48,21 +48,21 @@ const snsImages: ImageSns[] = [
 
 // Company Top Page
 const CompanyTop: ImageDetail = {
-  src: Company,
+  src: Company.src,
   alt: 'Company_Top',
   className: 'rounded-tl-144',
 };
 
 // Message Top Page
 export const MessageTop: ImageDetail = {
-  src: Message,
+  src: Message.src,
   alt: 'Message_Top',
   className: 'rounded-tr-144',
 };
 
 // Outline Top Page
 export const OutlineTop: ImageDetail = {
-  src: Outline,
+  src: Outline.src,
   alt: 'Outline_Top',
   className: 'rounded-tr-144',
 };

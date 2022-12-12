@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React, { FC, useRef, useMemo } from 'react';
 import useOffsetTop from '../libs/useScroll';
 import ImageObject from './Images';
@@ -40,13 +39,10 @@ const Vision: FC = () => {
             ref={iconRef}
             className={`absolute -top-14 left-20 -z-10 h-visionItem w-whoitem  bg-gray_pale opacity-0 ${backGray.scrollStyle} sm:hidden`}
           ></div>
-          <Image
+          <img
             src={ImageObject.VisionImgs[0].src}
             alt={ImageObject.VisionImgs[0].alt}
-            className={`opacity-0 ${scrollStyle.scrollStyle} `}
-            priority={true}
-            layout='fill'
-            objectFit='cover'
+            className={`object-cover opacity-0 ${scrollStyle.scrollStyle} `}
           />
         </div>
         <div>
@@ -69,13 +65,10 @@ const Vision: FC = () => {
             </p>
           </div>
           <div className='relative hidden sm:mt-12 sm:block sm:h-48 sm:w-full'>
-            <Image
+            <img
               src={ImageObject.VisionImgs[0].src}
               alt={ImageObject.VisionImgs[0].alt}
-              className='sm:rounded-20 '
-              priority={true}
-              layout='fill'
-              objectFit='cover'
+              className='object-cover sm:rounded-20'
             />
           </div>
         </div>

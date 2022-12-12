@@ -17,23 +17,23 @@ import { ImageDetail, ServiceDetail } from 'types';
 // TOP画面
 const MainImages: ImageDetail[] = [
   {
-    src: Main_1,
+    src: Main_1.src,
     alt: 'Main_Top_1',
     className: 'rounded-tr-144',
   },
   {
-    src: Main_2,
+    src: Main_2.src,
     alt: 'Main_Top_2',
     className: 'rounded-tr-144',
   },
   {
-    src: Main_3,
+    src: Main_3.src,
     alt: 'Main_Top_3',
     className: 'rounded-tr-144',
   },
 
   {
-    src: Main_4,
+    src: Main_4.src,
     alt: 'Main_Top_4',
     className: 'rounded-tr-144',
   },
@@ -42,7 +42,7 @@ const MainImages: ImageDetail[] = [
 // WHO
 const WhoImgs: ImageDetail[] = [
   {
-    src: Who,
+    src: Who.src,
     alt: '',
     className: 'rounded-80',
   },
@@ -51,7 +51,7 @@ const WhoImgs: ImageDetail[] = [
 // VISION
 const VisionImgs: ImageDetail[] = [
   {
-    src: Vision,
+    src: Vision.src,
     alt: '',
     className: 'rounded-80',
   },
@@ -60,28 +60,28 @@ const VisionImgs: ImageDetail[] = [
 // SERVICE
 const ServiceImgs: ServiceDetail[] = [
   {
-    src: Main_3,
+    src: Main_3.src,
     title: 'この文章はダミーかもしれない',
     text: 'この文章はダミーかもしれこミーかもしれない。この文章はダミーかもしれこの文章はダミーかもしれない。この文章ない。',
     alt: '',
     className: 'rounded-80',
   },
   {
-    src: Main_2,
+    src: Main_2.src,
     title: 'この文章はダミーです。文 字の大きさ',
     text: 'この文章はダミーです。ダミーかもしれない。この文章はダミーかもしれこの文章はダミーかもしれない。この文章の大きさ、量',
     alt: '',
     className: 'rounded-80',
   },
   {
-    src: Main_3,
+    src: Main_3.src,
     title: 'この文章はダミーかもしれない',
     text: 'この文章はダミーかもしれない。ダミーかもしれない。この文章はダミーかもしれこの文章はダミーかもしれない。この文章',
     alt: '',
     className: 'rounded-80',
   },
   {
-    src: Main_2,
+    src: Main_2.src,
     title: 'この文章はダミーです。文 字の大きさ',
     text: 'この文章はダミーです。字の大きーかもしれない。この文章はダミーかもしれこの文章はダミーかもしれない。を確認するために入れてこ。',
     alt: '',
@@ -92,7 +92,7 @@ const ServiceImgs: ServiceDetail[] = [
 // CAREERSE
 const CareerseImgs: ImageDetail[] = [
   {
-    src: Careers,
+    src: Careers.src,
     alt: '',
     className: 'rounded-80',
   },

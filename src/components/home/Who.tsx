@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React, { FC, useRef, useMemo } from 'react';
 import ButtonLink from '../libs/ButtonLink';
 import useOffsetTop from '../libs/useScroll';
@@ -56,13 +55,10 @@ const Top: FC = () => {
           </div>
         </div>
         <div className='relative h-whoImage sm:mb-10  sm:mt-12 sm:h-48 sm:w-full' ref={iconRef}>
-          <Image
+          <img
             src={ImageObject.WhoImgs[0].src}
             alt={ImageObject.WhoImgs[0].alt}
-            className={`opacity-0 ${scrollStyle.scrollStyle} sm:animate-none sm:rounded-20 sm:opacity-100`}
-            priority={true}
-            layout='fill'
-            objectFit='cover'
+            className={`object-cover opacity-0 ${scrollStyle.scrollStyle} sm:animate-none sm:rounded-20 sm:opacity-100`}
           />
         </div>
         <div className='hidden sm:block'>

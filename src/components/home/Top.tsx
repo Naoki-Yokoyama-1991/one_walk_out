@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React, { useRef } from 'react';
 import SwiperCore, { Pagination, Navigation, Autoplay, EffectFade } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -43,13 +42,10 @@ const Top: React.FC = () => {
           return (
             <SwiperSlide key={`${index}`}>
               {({ isActive }) => (
-                <Image
+                <img
                   src={src.src}
                   alt={src.alt}
-                  priority={true}
-                  layout='fill'
                   className={isActive ? colors.active : colors.noactive}
-                  objectFit='cover'
                 />
               )}
             </SwiperSlide>
