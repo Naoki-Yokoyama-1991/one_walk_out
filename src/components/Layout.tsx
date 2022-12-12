@@ -12,7 +12,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Head>
-        <title> Home</title>
+        <title>Home</title>
       </Head>
       <Hamburger />
       <Header />

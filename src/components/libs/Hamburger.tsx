@@ -58,7 +58,7 @@ function MobileNav({
                         alt={ImageObject.whiteLogo[0].alt}
                         className='object-cover'
                       />
-                      <span className='ml-12 text-2xl font-semibold uppercase text-white'>
+                      <span className='ml-3 text-2xl font-semibold uppercase text-white'>
                         ONEWALK
                       </span>
                     </a>
