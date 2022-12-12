@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ベーススタイル設定 */
+@layer base {
+  html,
+  body {
+    @apply text-BaseColor text-base m-0 font-base tracking-wide;
+  }
+
+  p {
+    @apply leading-loose;
+  }
+
+  li {
+    @apply list-none;
+  }
+  .vertical {
+    writing-mode: vertical-rl;
+  }
+}
