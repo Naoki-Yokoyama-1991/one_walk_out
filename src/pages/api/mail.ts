@@ -6,7 +6,7 @@ sgMail.setApiKey(process.env.MAIL_KEY as string);
 const sendMails = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
     const msg = {
-      to: 'yokoyama@one-walk.co.jp',
+      to: '',
       from: req.body.email,
       subject: req.body.subject,
       text:
@@ -32,7 +32,7 @@ const sendMails = async (req: NextApiRequest, res: NextApiResponse) => {
       if (result) {
         const reply = {
           to: req.body.email,
-          from: 'yokoyama@one-walk.co.jp',
+          from: '',
           subject: '自動返信メール｜ONEWALK',
           text:
             '※このメールは自動応答によって送信されています。' +

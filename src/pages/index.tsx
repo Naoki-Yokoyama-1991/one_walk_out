@@ -42,7 +42,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <title>Top</title>
       </Head>
       <Top />
-      <main className='mx-auto max-w-1080 sm:w-full'>
+      <main className='mx-auto max-w-1080 font-base sm:w-full '>
         <Who />
         <Vision />
         <Service />

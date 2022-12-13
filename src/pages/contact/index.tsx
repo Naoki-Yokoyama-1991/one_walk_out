@@ -9,7 +9,7 @@ const Contact: NextPage = () => {
       <Head>
         <title>Contact</title>
       </Head>
-      <main className='mx-auto max-w-1080 py-48 sm:w-full  sm:px-6  sm:py-0 sm:pt-28 sm:pb-6'>
+      <main className='mx-auto max-w-1080 py-48 font-base  sm:w-full  sm:px-6 sm:py-0 sm:pt-28  sm:pb-6'>
         <div className='grid grid-cols-Form gap-x-32 sm:block'>
           <Explain />
           <Form />

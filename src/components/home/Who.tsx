@@ -33,7 +33,7 @@ const Top: FC = () => {
       `}</style>
       <h1
         ref={iconRef}
-        className='relative top-110 mb-16 text-center text-most font-black  leading-none  sm:top-0 sm:mb-10 sm:text-left sm:text-smWho sm:text-red'
+        className='relative top-110 mb-16 text-center text-most font-black leading-none  sm:top-0 sm:mb-10 sm:text-left sm:text-smWho sm:text-red'
       >
         WHO WE WERE
       </h1>

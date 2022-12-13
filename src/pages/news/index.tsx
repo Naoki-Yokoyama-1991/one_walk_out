@@ -34,7 +34,7 @@ const News: NextPage<Props> = ({ allPosts }) => {
       <Head>
         <title>News</title>
       </Head>
-      <main className='mx-auto  max-w-1080 py-48  sm:w-full  sm:px-6  sm:py-0 sm:pt-28'>
+      <main className='mx-auto  max-w-1080 py-48  font-base  sm:w-full  sm:px-6 sm:py-0  sm:pt-28'>
         <span className='mb-6 block text-lg font-semibold text-red sm:mb-2 sm:text-base sm:font-medium '>
           NEWS
         </span>
