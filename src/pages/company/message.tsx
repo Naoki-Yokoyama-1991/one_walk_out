@@ -30,11 +30,11 @@ const Message: NextPage<Props> = ({ messages }: Props) => {
             TOP MESSAGE
           </h1>
         </div>
-        <div className='relative mt-28 h-serviceImage sm:mt-12 sm:h-48 sm:w-full'>
+        <div className='relative mt-28 h-serviceImage w-full sm:mt-12 sm:h-48 sm:w-full'>
           <img
             src={MessageTop.src}
             alt={MessageTop.alt}
-            className='w-full rounded-tl-200 object-contain sm:rounded-20'
+            className='h-full w-full rounded-tl-200 object-cover sm:rounded-20'
           />
         </div>
         <section className='mx-auto  w-full pt-32 sm:pt-10'>

@@ -86,7 +86,7 @@ const SliderItem: FC = () => {
             <img
               src={carouselItem.src}
               alt={carouselItem.alt}
-              className={`object-cover opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} sm:rounded-20`}
+              className={`object-cover opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} h-full w-full sm:rounded-20`}
             />
           </div>
         </div>

@@ -62,8 +62,8 @@ const Post: NextPage<Props> = ({ post }) => {
           </span>
           <h1 className='text-3xl font-bold sm:text-xl '>{post.title}</h1>
           <div className='border-gray_pal mt-20 border-t-1  border-solid py-20 sm:mt-14 sm:mb-12 sm:border-none sm:py-0'>
-            <div className='relative  h-visionImage   sm:h-48 '>
-              <img src={`/${post.image}`} className='object-cover sm:rounded-20' />
+            <div className='relative h-visionImage w-full sm:h-48'>
+              <img src={`/${post.image}`} className='h-full w-full object-cover sm:rounded-20' />
             </div>
           </div>
 

@@ -45,7 +45,7 @@ const Outline: NextPage<Props> = ({ outlines }: Props) => {
             <img
               src={OutlineTop.src}
               alt={OutlineTop.alt}
-              className='w-full rounded-tl-200  object-cover sm:rounded-20'
+              className='h-full w-full rounded-tl-200  object-cover sm:rounded-20'
             />
           </div>
         </section>

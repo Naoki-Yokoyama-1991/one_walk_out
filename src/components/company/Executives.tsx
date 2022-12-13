@@ -8,7 +8,7 @@ const Executives: FC = () => {
       {Images.Executives.map(function (carouselItem: Executives, index) {
         return (
           <div className='mt-14 w-64 sm:mt-6 sm:w-full' key={index}>
-            <div className='relative mb-8 h-exe  w-full sm:mb-6 sm:h-48'>
+            <div className='relative mb-8 h-exe w-full sm:mb-6 sm:h-48'>
               <img src={carouselItem.src} className='h-full w-full rounded-xl object-cover' />
             </div>
             <p className='text-sm font-medium'>{carouselItem.position}</p>

@@ -17,9 +17,7 @@ export const HeaderNav: FC = () => {
                 alt={ImageObject.NavImages[0].alt}
                 className='object-cover'
               />
-              <span className='ml-2 text-2xl font-semibold uppercase sm:ml-9 sm:text-xl '>
-                ONEWALK
-              </span>
+              <span className='ml-2 text-2xl font-semibold uppercase  sm:text-xl '>ONEWALK</span>
             </a>
           </Link>
         </div>

@@ -38,7 +38,7 @@ const Contact: FC = () => {
           <img
             src={ImageObject.CareerseImgs[0].src}
             alt={ImageObject.CareerseImgs[0].alt}
-            className={`object-cover opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} sm:rounded-20`}
+            className={`object-cover opacity-0 sm:animate-none sm:opacity-100 ${scrollStyle.scrollStyle} h-full w-full sm:rounded-20`}
           />
         </div>
         <div className='relative bottom-44 grid grid-cols-Contact items-end sm:bottom-0 sm:block'>

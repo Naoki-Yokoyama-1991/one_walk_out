@@ -78,7 +78,7 @@ module.exports = {
         smWho: '40px',
       },
       fontFamily: {
-        base: ['Lato', 'Noto Sans JP'],
+        base: ['Lato', 'Noto Sans JP', 'Helvetica Neue', 'hiragino Sans', 'sans-serif'],
       },
       borderColor: {
         BaseColor: '#222222',

@@ -12,26 +12,26 @@ const Executives: Executives[] = [
   {
     src: H_1.src,
     alt: '',
-    position: '代表取締役 CEO（社長）兼 株式会社ソウゾウ取締役',
-    name: '鈴木 太郎',
+    position: '代表取締役 CEO（社長）兼 株式会社○○○取締役',
+    name: '○○ 太郎',
   },
   {
     src: H_2.src,
     alt: '',
-    position: '代表取締役 CEO（社長）兼 株式会社ソウゾウ取締役',
-    name: '山田 太郎',
+    position: '代表取締役 CEO（社長）兼 株式会社○○○取締役',
+    name: '○○ 太郎',
   },
   {
     src: H_3.src,
     alt: '',
-    position: '代表取締役 CEO（社長）兼 株式会社ソウゾウ取締役',
-    name: '鈴木 太郎',
+    position: '代表取締役 CEO（社長）兼 株式会社○○○取締役',
+    name: '○○ 太郎',
   },
   {
     src: H_4.src,
     alt: '',
-    position: '代表取締役 CEO（社長）兼 株式会社ソウゾウ取締役',
-    name: '山田 太郎',
+    position: '代表取締役 CEO（社長）兼 株式会社○○○取締役',
+    name: '○○ 太郎',
   },
 ];
 

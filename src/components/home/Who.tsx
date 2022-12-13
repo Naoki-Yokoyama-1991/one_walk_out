@@ -58,7 +58,7 @@ const Top: FC = () => {
           <img
             src={ImageObject.WhoImgs[0].src}
             alt={ImageObject.WhoImgs[0].alt}
-            className={`object-cover opacity-0 ${scrollStyle.scrollStyle} sm:animate-none sm:rounded-20 sm:opacity-100`}
+            className={`object-cover opacity-0 ${scrollStyle.scrollStyle} h-full w-full sm:animate-none sm:rounded-20 sm:opacity-100`}
           />
         </div>
         <div className='hidden sm:block'>

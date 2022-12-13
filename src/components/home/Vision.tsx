@@ -68,7 +68,7 @@ const Vision: FC = () => {
             <img
               src={ImageObject.VisionImgs[0].src}
               alt={ImageObject.VisionImgs[0].alt}
-              className='object-cover sm:rounded-20'
+              className='h-full w-full object-cover sm:rounded-20'
             />
           </div>
         </div>
